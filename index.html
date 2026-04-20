@@ -1,0 +1,286 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Oswald:wght@700&family=Special+Elite&display=swap');
+
+  .poster {
+    background: #fdf6e3;
+    border: 4px solid #8B0000;
+    border-radius: 4px;
+    padding: 0;
+    max-width: 680px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .header-band {
+    background: #8B0000;
+    padding: 10px 20px 10px;
+    text-align: center;
+    border-bottom: 4px solid #5a0000;
+  }
+
+  .tagline {
+    font-family: 'Special Elite', cursive;
+    color: #f5e6a0;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .band-name {
+    font-family: 'Metal Mania', cursive;
+    color: #fff;
+    font-size: 44px;
+    line-height: 1;
+    text-shadow: 2px 2px 0 #5a0000;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+
+  .not-part {
+    font-family: 'Special Elite', cursive;
+    color: #f5e6a0;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .genre-strip {
+    background: #f0e6c8;
+    padding: 6px 20px;
+    text-align: center;
+    border-bottom: 2px solid #c8a96e;
+  }
+
+  .genre-text {
+    font-family: 'Special Elite', cursive;
+    color: #6b3a1f;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    padding: 20px 30px;
+    background: #fdf6e3;
+  }
+
+  .blurb {
+    font-family: 'Special Elite', cursive;
+    color: #3a2010;
+    font-size: 13.5px;
+    line-height: 1.7;
+    text-align: center;
+    border: 1.5px solid #c8a96e;
+    padding: 12px 16px;
+    margin-bottom: 18px;
+    background: #fff8e8;
+    font-style: italic;
+  }
+
+  .alcohol-note {
+    color: #8B0000;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .dates-header {
+    font-family: 'Oswald', sans-serif;
+    color: #8B0000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0 0 6px;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 6px;
+  }
+
+  .tentative {
+    font-family: 'Special Elite', cursive;
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .date-list {
+    list-style: none;
+    margin: 0 0 18px;
+    padding: 0;
+    border: 1.5px solid #c8a96e;
+  }
+
+  .date-list li {
+    font-family: 'Special Elite', cursive;
+    color: #2a1505;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0ceaa;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .date-list li:last-child {
+    border-bottom: none;
+  }
+
+  .date-list li:nth-child(odd) {
+    background: #fff8e8;
+  }
+
+  .date-list li:nth-child(even) {
+    background: #fdf0d0;
+  }
+
+  .date-tag {
+    color: #8B0000;
+    font-size: 12px;
+    white-space: nowrap;
+    min-width: 140px;
+    font-weight: bold;
+  }
+
+  .location-name {
+    color: #3a1a05;
+    font-size: 14px;
+  }
+
+  .special-date {
+    background: #fff3cc !important;
+    border-left: 4px solid #c8860a;
+  }
+
+  .special-date .date-tag {
+    color: #8B4500 !important;
+  }
+
+  .special-date .location-name {
+    color: #5a2d00 !important;
+    font-weight: bold;
+  }
+
+  .booking-box {
+    background: #8B0000;
+    border: 2px solid #5a0000;
+    padding: 12px 20px;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .booking-header {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .phone {
+    font-family: 'Metal Mania', cursive;
+    color: #f5e6a0;
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  .booking-sub {
+    font-family: 'Special Elite', cursive;
+    color: #ffdddd;
+    font-size: 11px;
+    margin-top: 4px;
+    letter-spacing: 1px;
+  }
+
+  .popup-notice {
+    font-family: 'Special Elite', cursive;
+    color: #666;
+    font-size: 11px;
+    text-align: center;
+    border-top: 1px solid #c8a96e;
+    padding-top: 12px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  .rule-strip {
+    background: #8B0000;
+    height: 6px;
+  }
+</style>
+
+<div class="poster">
+  <div class="rule-strip"></div>
+
+  <div class="header-band">
+    <span class="not-part">— Proudly Presents —</span>
+    <div class="band-name">NOT THE<br>JACKSON FIVE</div>
+    <div style="margin-top:6px;">
+      <span class="tagline">★ The 2026 World Tour ★</span>
+    </div>
+  </div>
+
+  <div class="genre-strip">
+    <span class="genre-text">⚡ Retro · Heavy Metal · Folk ⚡</br>Disappointing Audiences Since 2026</span>
+  </div>
+
+  <div class="content">
+
+    <p class="blurb">
+      Known for their <em>clashing, off-key versions</em> of many of your favorites,<br>
+      the band has found that their reviews are greatly improved<br>
+      by the <span class="alcohol-note">amount of alcohol served at the venue.</span><br><br>
+      Available for weddings, birthday parties &amp; grand openings<br>
+      of any venue that <span class="alcohol-note">serves alcohol.</span>
+    </p>
+
+    <div class="dates-header">⚡ Tour Dates ⚡</div>
+    <div class="tentative">★ all dates tentative — confirmation required ★</div>
+
+    <ul class="date-list">
+      <li>
+        <span class="date-tag">May 3rd</span>
+        <span class="location-name">Melbourne, FL</span>
+      </li>
+      <li>
+        <span class="date-tag">May 7th</span>
+        <span class="location-name">Little River, SC</span>
+      </li>
+      <li class="special-date">
+        <span class="date-tag">May 17 – May 24</span>
+        <span class="location-name">🚢 Princess Eastern Caribbean Cruise</span>
+      </li>
+      <li>
+        <span class="date-tag">June 3rd</span>
+        <span class="location-name">Attleboro, MA</span>
+      </li>
+      <li>
+        <span class="date-tag">July 4th</span>
+        <span class="location-name">Melbourne, FL</span>
+      </li>
+      <li class="special-date">
+        <span class="date-tag">Aug 15 – Sep 15</span>
+        <span class="location-name">🛣 Various Locations · Route 66</span>
+      </li>
+    </ul>
+
+    <p class="popup-notice">
+      The band also appears irregularly at local venues in pop-up shows<br>
+      that disappear as soon as the police are called.
+    </p>
+
+    <div class="booking-box">
+      <span class="booking-header">Get Your Tickets Now</span>
+      <div class="phone">908-989-0103</div>
+      <div class="booking-sub">call before we change our minds · or are arrested</div>
+    </div>
+
+  </div>
+  <div class="rule-strip"></div>
+</div>
